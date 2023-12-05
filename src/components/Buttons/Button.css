@@ -1,0 +1,47 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 3rem 20rem;
+}
+
+.call {
+    padding: 1rem 4rem;
+    background-color: rgb(139, 35, 0);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.mail {
+    padding: 1rem 4rem;
+    background-color: rgb(10, 139, 182);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.whataspp {
+    padding: 1rem 4rem;
+    background-color: rgb(20, 160, 20);
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 850px){
+    .button {
+        width: 50%;
+        flex-direction: column;
+    }
+
+    .call {
+        margin-bottom: 1rem;
+    }
+
+    .mail {
+        margin-bottom: 1rem;
+    }
+}
